@@ -41,11 +41,19 @@ section.content-general {
   margin-bottom: 120px; }
 
 hr.hr-fix {
-  border-top: 3px solid #2B333A;
-  border-bottom: 2px dashed #2B333A;
-  border-left: none;
-  border-right: none;
-  height: 6px; }
+  background-color:#597ea6;
+  height:3px; 
+  width:20%;
+  display:inline-block; 
+
+}
+hr.hr-fix-2 {
+  background-color:#e2e2e2;
+  height:3px; 
+  width:75%;
+  display:inline-block; 
+
+}
 
 h2.titulos-conteidos {
   position: absolute;
@@ -53,6 +61,10 @@ h2.titulos-conteidos {
   margin: 0;
   left: 14%;
   /*border:1px solid red;*/ }
+
+.content-index a{
+  text-decoration: none;
+}
 
 footer.content-footer {
   background-color: #2B333A;
