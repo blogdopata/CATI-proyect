@@ -1,0 +1,50 @@
+doctype html
+html
+	include ../includes/head.pug
+	body
+		div(class="container-fluid")
+			include ../includes/top-info.pug
+		
+		header
+			include ../includes/header.pug
+		
+		section(class="container-fluid portada")
+			include ../includes/portada-contenido-convocatoria.pug
+
+		.container(style="margin-bottom:200px;")
+			.row
+				.col-sm-10.col-sm-offset-1
+					h2 Brain Chile
+					p  
+						| La Pontificia Universidad Católica de Chile a través de su programa de aceleración de emprendimientos de base científico-tecnológica Brain Chile, abre por primera vez una convocatoria a proyectos de Latinoamérica.  Buscan proyectos en fase de pruebas de laboratorio, pruebas de concepto y/o prototipos originados en universidades. Esta convocatoria está dirigida a estudiantes de pre y post grado, investigadores y/o académicos.
+						br
+						br
+						| El día de mañana 27 de marzo a las 10:00 (hora de Perú) se realizará el webinar 
+						b "Conecta con Brain Chile"
+						| , con el fin de explicar el programa y resolver dudas, enfocado a países latinoamericanos. Pueden ingresar en el siguiente link:  
+						a(href="https://zoom.us/j/812574767" , target="_blank") https://zoom.us/j/812574767
+			br
+			.row
+				.col-sm-4(class="text-center")
+					h3 Presentación
+					a(href="http://usmp.edu.pe/cati/pdf/presentacion_brainChil.pdf", target="_blank")
+						img(src="http://usmp.edu.pe/cati/images/presentacion_brainChile.jpg" ,class="text-center" alt="")
+				.col-sm-4(class="text-center")
+					h3 Afiche
+					a(href="http://usmp.edu.pe/cati/pdf/afiche_brainChile.pdf", class="text-center",target="_blank")
+						img(src="http://usmp.edu.pe/cati/images/afiche_brainChile.jpg", class="text-center",alt="")
+				.col-sm-4(class="text-center")
+					h3 Folleto
+					a(href="http://usmp.edu.pe/cati/pdf/folleto_brainChile.pdf", target="_blank")
+						img(src="http://usmp.edu.pe/cati/images/folleto_brainChile.jpg", alt="")
+
+
+
+
+
+
+
+		footer(class="container-fluid content-footer footer navbar-fixed-bottom")
+			include ../includes/footer.pug
+
+		include ../includes/scripts.pug
