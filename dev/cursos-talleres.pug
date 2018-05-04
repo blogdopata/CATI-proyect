@@ -1,0 +1,20 @@
+doctype html
+html
+	include includes/head.pug
+	body
+		div(class="container-fluid")
+			include includes/top-info.pug
+		
+		header
+			include includes/header.pug
+		
+		section(class="container-fluid portada")
+			include includes/portada-contenido-cursos.pug
+
+		section(class="container content-general")
+			include includes/contenido-cursos.pug
+
+		footer(class="container-fluid content-footer footer navbar-fixed-bottom")
+			include includes/footer.pug
+
+		include includes/scripts.pug
